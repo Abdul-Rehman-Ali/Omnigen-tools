@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omni Gen Tools - Smart & Creative Generators</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Omni Gen Tools</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#generators">Generators</a></li>
+                <li><a href="#how">How It Works</a></li>
+                <li><a href="#why">Why Choose Us</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content glass">
+            <h1>Your One‑Stop Hub for Smart & Creative Generators</h1>
+            <p> <a href="https://omnigentools.com/" target="_blank">Omni Gen Tools</a> makes it simple to generate
+                headcanons, random
+                letters, words, and
+                Pictionary ideas—all in
+                one place, instantly. Bring creativity, fun, and productivity together with ease.</p>
+            <a href="#generators" class="btn">Explore Generators</a>
+        </div>
+    </section>
+
+    <section id="about" class="about glass">
+        <h2>About Omni Gen Tools</h2>
+        <p>At Omni Gen Tools, creativity meets simplicity. Our platform brings a suite of tools designed to spark
+            imagination—perfect for writers, teachers, gamers, and creators. We believe that inspiration should be
+            instant, accessible, and fun.</p>
+    </section>
+
+    <section id="generators" class="generators">
+        <h2>Our Generators</h2>
+        <div class="cards">
+            <div class="card glass">
+                <h3>Headcanon Generator</h3>
+                <p>Instantly generate unique headcanon ideas to build characters, stories, and worlds effortlessly.</p>
+            </div>
+            <div class="card glass">
+                <h3>Random Letter Generator</h3>
+                <p>Get random letters for games, learning exercises, and brainstorming sessions—fast and fun!</p>
+            </div>
+            <div class="card glass">
+                <h3>Random Word Generator</h3>
+                <p>Spark new ideas with random words—great for naming projects, writing prompts, or games.</p>
+            </div>
+            <div class="card glass">
+                <h3>Pictionary Idea Generator</h3>
+                <p>Quickly generate Pictionary prompts for group fun or creative sessions.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="how" class="how glass">
+        <h2>How It Works</h2>
+        <ol>
+            <li>Choose the generator you want to use.</li>
+            <li>Click the button to generate ideas instantly.</li>
+            <li>Use results for writing, learning, or playing games.</li>
+        </ol>
+    </section>
+
+    <section id="why" class="why glass">
+        <h2>Why Choose Omni Gen Tools?</h2>
+        <ul>
+            <li>💡 Instant, creative ideas anytime.</li>
+            <li>🧠 Perfect for teachers, writers, and gamers.</li>
+            <li>🎨 Modern, simple, and free tools.</li>
+            <li>⚡ No sign‑up required — just generate and go!</li>
+        </ul>
+    </section>
+
+    <section id="faq" class="faq glass">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h3>Is Omni Gen Tools free to use?</h3>
+            <p>Yes! All our generators are completely free to use anytime.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Do I need to sign up?</h3>
+            <p>No sign-up required. Just open the site and start generating instantly.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Can I use these tools for commercial projects?</h3>
+            <p>Absolutely! You can use our ideas to support your writing, games, and teaching materials.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Will you add more generators?</h3>
+            <p>Yes, we’re always adding more creative and fun generators to our collection!</p>
+        </div>
+    </section>
+
+    <footer class="footer glass">
+        <p>© <span id="year"></span> Omni Gen Tools. All Rights Reserved.</p>
+        <a href="#home" class="back-to-top">↑ Back to Top</a>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+        document.querySelector('.back-to-top').addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+
+</html>
